@@ -1,0 +1,236 @@
+/* =====================================================
+   PROMAX FACILITY - PREMIUM NAVBAR
+===================================================== */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+
+    width:100%;
+    height:80px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:0 70px;
+
+    background:rgba(22,22,22,.96);
+    backdrop-filter:blur(10px);
+
+    box-shadow:0 8px 25px rgba(0,0,0,.18);
+
+    z-index:1000;
+    transition:.35s;
+}
+
+/* =====================================================
+   LOGO
+===================================================== */
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    cursor:pointer;
+}
+
+.logo img{
+    width:58px;
+    height:58px;
+    object-fit:contain;
+    transition:.35s;
+}
+
+.logo:hover img{
+    transform:rotate(-4deg) scale(1.05);
+}
+
+.logo-text{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.logo-text h2{
+    margin:0;
+
+    color:#ffffff;
+
+    font-size:30px;
+    font-weight:800;
+    letter-spacing:1px;
+    line-height:1;
+}
+
+.logo-text span{
+
+    margin-top:6px;
+
+    color:#C9971A;
+
+    font-size:12px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+
+    font-weight:600;
+}
+
+/* =====================================================
+   NAVIGATION
+===================================================== */
+
+.nav-links{
+
+    display:flex;
+    align-items:center;
+
+    list-style:none;
+
+    gap:45px;
+
+    margin:0;
+    padding:0;
+}
+
+.nav-links li{
+
+    position:relative;
+}
+
+.nav-links li a{
+
+    color:#ffffff;
+
+    text-decoration:none;
+
+    font-size:17px;
+    font-weight:600;
+
+    transition:.3s;
+}
+
+/* Gold underline */
+
+.nav-links li::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+    bottom:-8px;
+
+    width:0;
+    height:2px;
+
+    background:#C9971A;
+
+    transition:.35s;
+}
+
+.nav-links li:hover::after{
+
+    width:100%;
+}
+
+.nav-links li:hover a{
+
+    color:#C9971A;
+}
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+.quote-btn{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:#C9971A;
+    color:#ffffff;
+
+    padding:14px 34px;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    font-size:15px;
+    font-weight:700;
+
+    transition:.35s;
+
+    border:none;
+}
+
+.quote-btn:hover{
+
+    background:#E2AA23;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 30px rgba(201,151,26,.35);
+}
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media(max-width:1200px){
+
+    .navbar{
+
+        padding:0 40px;
+    }
+
+    .logo-text h2{
+
+        font-size:26px;
+    }
+
+    .nav-links{
+
+        gap:30px;
+    }
+
+}
+
+@media(max-width:992px){
+
+    .navbar{
+
+        height:75px;
+        padding:0 20px;
+    }
+
+    .logo img{
+
+        width:50px;
+        height:50px;
+    }
+
+    .logo-text h2{
+
+        font-size:22px;
+    }
+
+    .logo-text span{
+
+        display:none;
+    }
+
+    .nav-links{
+
+        display:none;
+    }
+
+    .quote-btn{
+
+        display:none;
+    }
+
+}

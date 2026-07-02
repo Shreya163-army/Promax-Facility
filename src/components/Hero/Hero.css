@@ -1,0 +1,51 @@
+/* ==========================================
+   HERO SECTION
+========================================== */
+
+.hero{
+    width:100%;
+    height:100vh;
+
+    margin-top:90px;
+
+    background-image:url("../../assets/images/hero.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 1200px) {
+
+    .hero {
+        background-position: center;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .hero {
+
+        height: 75vh;
+
+        background-position: center;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+
+        height: 60vh;
+
+        background-position: center;
+
+    }
+
+}
