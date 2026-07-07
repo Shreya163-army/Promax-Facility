@@ -38,53 +38,43 @@ Mandar Sawant
 Director • PROMAX Facility
 </h4>
 
-<p>
+<p className="leader-text">
+  Mandar Sawant is a seasoned security and operations leader
+  with over <strong>20 years of experience</strong> across
+  military special operations and corporate security
+  management.
 
-Mandar Sawant is a seasoned security and operations leader
-with over <strong>20 years of experience</strong> across
-military special operations and corporate security
-management.
+  <br /><br />
 
-<br /><br />
+  A former member of the
+  <strong> Indian Army's elite Parachute Regiment
+  (Special Forces)</strong>, he proudly served the nation
+  for <strong>16 years</strong>.
 
-A former member of the
-<strong> Indian Army's elite Parachute Regiment
-(Special Forces)</strong>,
-he proudly served the nation for
-<strong>16 years</strong> in high-risk operational
-environments, including counter-terrorism operations
-and United Nations peacekeeping assignments.
+  <br /><br />
 
-<br /><br />
+  Following his military career, he has successfully
+  led security and operational functions across
+  manufacturing, technology, commercial and residential sectors.
 
-Following his military career,
-Mr. Sawant successfully led security and operational
-functions across manufacturing, technology,
-commercial and residential sectors.
+  <br /><br />
 
-His expertise includes:
+  His expertise includes:
+</p>
 
-<ul>
-
-<li>Corporate Security Management</li>
-
-<li>Risk Assessment & Risk Mitigation</li>
-
-<li>Asset Protection</li>
-
-<li>Crisis & Emergency Response</li>
-
-<li>Facility Operations</li>
-
-<li>Leadership & Team Development</li>
-
+<ul className="profile-list">
+  <li>Corporate Security Management</li>
+  <li>Risk Assessment & Risk Mitigation</li>
+  <li>Asset Protection</li>
+  <li>Crisis & Emergency Response</li>
+  <li>Facility Operations</li>
+  <li>Leadership & Team Development</li>
 </ul>
 
-He combines military discipline,
-strategic planning and customer-focused service
-to deliver reliable, professional and scalable
-facility management solutions.
-
+<p className="leader-text">
+  He combines military discipline, strategic planning and
+  customer-focused service to deliver reliable, professional
+  and scalable facility management solutions.
 </p>
 
 <div className="profile-highlights">

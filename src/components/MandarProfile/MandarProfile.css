@@ -139,3 +139,14 @@ grid-template-columns:1fr;
 }
 
 }
+
+.profile-list{
+    margin:25px 0;
+    padding-left:25px;
+    color:#555;
+    line-height:2;
+}
+
+.profile-list li{
+    margin-bottom:8px;
+}

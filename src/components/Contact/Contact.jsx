@@ -97,7 +97,7 @@ function Contact() {
 
                             <h3>Email</h3>
 
-                            <p>info@promaxfacility.com</p>
+                            <p>promaxfacility9@gmail.com</p>
 
                         </div>
 

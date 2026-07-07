@@ -101,8 +101,8 @@ function Footer() {
                     <p><FaPhoneAlt /> Mandar Sawant (Director)</p>
                     <a href="tel:+917506072204">+91 75060 72204</a>
 
-                    <p><FaEnvelope /> <a href="mailto:info@promaxfacility.com">
-                        info@promaxfacility.com
+                    <p><FaEnvelope /> <a href="mailto:promaxfacility9@gmail.com">
+                        promaxfacility9@gmail.com
                     </a></p>
 
                     <p>
