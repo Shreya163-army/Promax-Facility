@@ -1,0 +1,243 @@
+/* ==========================================
+   CONTACT SECTION
+========================================== */
+
+.contact{
+    width:100%;
+    padding:110px 8%;
+    background:#F8F8F8;
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.contact-header{
+    text-align:center;
+    max-width:850px;
+    margin:0 auto 70px;
+}
+
+.contact-header h2{
+    font-size:52px;
+    color:#1E1E1E;
+    margin:20px 0;
+    font-weight:800;
+}
+
+.contact-header p{
+    color:#666;
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* ==========================================
+   CONTACT CONTAINER
+========================================== */
+
+.contact-container{
+    max-width:850px;
+    margin:0 auto;
+}
+
+/* ==========================================
+   CONTACT INFO
+========================================== */
+
+.contact-info{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+/* ==========================================
+   INFO CARD
+========================================== */
+
+.info-card{
+    display:flex;
+    align-items:flex-start;
+    gap:22px;
+
+    background:#ffffff;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    transition:.35s;
+}
+
+.info-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 25px 45px rgba(0,0,0,.12);
+}
+
+/* ==========================================
+   ICON
+========================================== */
+
+.info-icon{
+    width:65px;
+    height:65px;
+
+    background:#FFF4DD;
+
+    color:#C9971A;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:28px;
+
+    flex-shrink:0;
+
+    padding:18px;
+}
+
+/* ==========================================
+   TITLE
+========================================== */
+
+.info-card h3{
+    color:#1E1E1E;
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+/* ==========================================
+   TEXT
+========================================== */
+
+.info-card p{
+    color:#666;
+    font-size:16px;
+    line-height:1.8;
+    margin:5px 0;
+}
+
+/* ==========================================
+   CONTACT PERSON
+========================================== */
+
+.contact-person{
+    margin-bottom:22px;
+}
+
+.contact-person:last-child{
+    margin-bottom:0;
+}
+
+.contact-person strong{
+    display:block;
+
+    color:#1E1E1E;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    margin-bottom:4px;
+}
+
+.contact-person span{
+    display:block;
+
+    color:#C9971A;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    margin-bottom:6px;
+}
+
+.contact-person p{
+    color:#666;
+    margin:0;
+    font-size:16px;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+.contact{
+
+padding:90px 6%;
+
+}
+
+.contact-header h2{
+
+font-size:38px;
+
+}
+
+.contact-header p{
+
+font-size:16px;
+
+}
+
+.info-card{
+
+padding:24px;
+
+}
+
+}
+
+@media(max-width:500px){
+
+.contact{
+
+padding:75px 5%;
+
+}
+
+.contact-header h2{
+
+font-size:30px;
+
+}
+
+.info-card{
+
+flex-direction:column;
+
+align-items:center;
+
+text-align:center;
+
+}
+
+.info-card h3{
+
+font-size:22px;
+
+}
+
+.info-icon{
+
+width:60px;
+height:60px;
+
+font-size:24px;
+
+}
+
+.contact-person{
+
+text-align:center;
+
+}
+
+}
