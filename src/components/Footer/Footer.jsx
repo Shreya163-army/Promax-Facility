@@ -92,7 +92,7 @@ function Footer() {
 
                     <h4>Contact</h4>
 
-                    <p><FaPhoneAlt /> Vikas Patil (CEO)</p>
+                    <p><FaPhoneAlt /> Vikas Patil (Founder)</p>
                     <a href="tel:+917058742998">+91 70587 42998</a>
 
                     <p><FaPhoneAlt /> Vandana Thakur (Director)</p>

@@ -27,7 +27,7 @@ function Contact() {
                 <p>
                     Whether you require professional security personnel,
                     housekeeping, facility management or manpower services,
-                    our team is ready to help.
+                    our team is ready to Serve.
                 </p>
 
             </div>
@@ -64,7 +64,7 @@ function Contact() {
                                 <div className="contact-person">
 
                                     <strong>Vikas Patil</strong>
-                                    <span> CEO </span>
+                                    <span> Founder (CEO) </span>
                                     <p>+91 70587 42998</p>
 
                                 </div>

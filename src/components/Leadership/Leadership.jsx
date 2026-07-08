@@ -15,7 +15,7 @@ function Leadership() {
     {
       image: vikas,
       name: "Vikas Patil",
-      designation: "CEO",
+      designation: "Founder (CEO)",
       description:
         "Leading the organization's vision, growth and operational excellence across all business functions.",
     },

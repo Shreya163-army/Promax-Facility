@@ -26,6 +26,7 @@ function Navbar() {
         <li><a href="#services" onClick={() => setMenuOpen(false)}>Services</a></li>
         <li><a href="#why" onClick={() => setMenuOpen(false)}>Why Choose Us</a></li>
         <li><a href="#leadership" onClick={() => setMenuOpen(false)}>Leadership</a></li>
+        <li><a href="#gallery" onClick={() => setMenuOpen(false)}>Gallery</a></li>
         <li><a href="#clients" onClick={() => setMenuOpen(false)}>Clients</a></li>
         <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
       </ul>
