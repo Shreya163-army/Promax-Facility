@@ -48,8 +48,8 @@ Director • PROMAX Facility
 
   A former member of the
   <strong> Indian Army's elite Parachute Regiment
-  (Special Forces)</strong>, he proudly served the nation
-  for <strong>16 years</strong>.
+  (Special Forces)</strong>, he proudly served the nation as 
+  Indian army veteran with distinguished service of <strong>16 years</strong>.
 
   <br /><br />
 
