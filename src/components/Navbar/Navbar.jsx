@@ -15,8 +15,7 @@ function Navbar() {
         <img src={logo} alt="Promax Facility Logo" />
 
         <div className="logo-text">
-          <h2>PROMAX FACILITY</h2>
-          <span>YOUR SAFETY, OUR PRIORITY</span>
+          <h2>PROMAX</h2>
         </div>
       </div>
 

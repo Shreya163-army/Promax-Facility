@@ -81,11 +81,11 @@ function Contact() {
 
                                     <strong>Mandar Sawant</strong>
                                     <span> Director </span>
-                                    <p>+91 75060 72204</p>
+                                    <p>+91 74986 43425</p>
 
                                 </div>
 
-                            </div>
+                            </div> 
 
                         </div>
 

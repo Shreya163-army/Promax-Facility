@@ -1,153 +1,131 @@
 import "./Clients.css";
 
 import {
-    FaBuilding,
-    FaSchool,
-    FaHospital,
-    FaIndustry,
-    FaUniversity,
-    FaWarehouse
+  FaBuilding,
+  FaUniversity,
+  FaIndustry,
+  FaWarehouse,
+  FaLaptopCode,
+  FaLandmark,
 } from "react-icons/fa";
 
 function Clients() {
+  const clients = [
+    {
+      icon: <FaLaptopCode />,
+      name: "Dolby Technology India Pvt. Ltd.",
+      location: "India",
+    },
 
-    const clients = [
+    {
+      icon: <FaLandmark />,
+      name: "The Nashik Merchants Bank Co-operative Ltd.",
+      location: "Nashik",
+    },
 
-        {
-            icon: <FaBuilding />,
-            name: "Maharashtra State Data Centre",
-            location: "Mantralaya"
-        },
+    {
+      icon: <FaBuilding />,
+      name: "MK Ghare Jewellers Pvt. Ltd.",
+      location: "Maharashtra",
+    },
 
-        {
-            icon: <FaBuilding />,
-            name: "Wipro Infotech Ltd.",
-            location: "Powai"
-        },
+    {
+      icon: <FaLaptopCode />,
+      name: "Sheeltron Digital Systems Pvt. Ltd.",
+      location: "India",
+    },
 
-        {
-            icon: <FaSchool />,
-            name: "Ryan International School",
-            location: "Multiple Locations"
-        },
+    {
+      icon: <FaIndustry />,
+      name: "Jassani India Pvt. Ltd.",
+      location: "India",
+    },
 
-        {
-            icon: <FaUniversity />,
-            name: "Nalanda College",
-            location: "Gorai"
-        },
+    {
+      icon: <FaLaptopCode />,
+      name: "Qodenext India Pvt. Ltd.",
+      location: "India",
+    },
 
-        {
-            icon: <FaIndustry />,
-            name: "DBM Geotechnics",
-            location: "Mumbai"
-        },
+    {
+      icon: <FaLaptopCode />,
+      name: "Wipro Infotech Ltd.",
+      location: "India",
+    },
 
-        {
-            icon: <FaWarehouse />,
-            name: "Sequel Logistics Pvt. Ltd.",
-            location: "Mumbai"
-        },
+    {
+      icon: <FaBuilding />,
+      name: "Silicon Valley CHS. Ltd.",
+      location: "Mumbai",
+    },
 
-        {
-            icon: <FaBuilding />,
-            name: "QodeNext India Pvt. Ltd.",
-            location: "Turbhe"
-        },
+    {
+      icon: <FaBuilding />,
+      name: "Harmon Associates India Pvt. Ltd.",
+      location: "India",
+    },
 
-        {
-            icon: <FaHospital />,
-            name: "Jagriti Hospital",
-            location: "Goregaon"
-        },
+    {
+      icon: <FaIndustry />,
+      name: "MPIL Steel Structures Pvt. Ltd.",
+      location: "India",
+    },
 
-        {
-            icon: <FaIndustry />,
-            name: "Karvy Data Management",
-            location: "Thane"
-        },
+    {
+      icon: <FaWarehouse />,
+      name: "Clique Exports Pvt. Ltd.",
+      location: "India",
+    },
 
-        {
-            icon: <FaBuilding />,
-            name: "Marathon Infrastructure",
-            location: "Panvel"
-        },
+    {
+      icon: <FaBuilding />,
+      name: "Sitanshu Realtors Pvt. Ltd.",
+      location: "Mumbai",
+    },
+  ];
 
-        {
-            icon: <FaBuilding />,
-            name: "RN Group",
-            location: "Ahmedabad"
-        },
+  return (
+    <section className="clients" id="clients">
+      <div className="clients-header">
+        <p className="section-tag">OUR CLIENTS</p>
 
-        {
-            icon: <FaBuilding />,
-            name: "Clique Exports Pvt. Ltd.",
-            location: "Vasai"
-        }
+        <div className="section-line"></div>
 
-    ];
+        <h2>Trusted By Leading Organizations</h2>
 
-    return (
+        <p>
+          PROMAX Facility & Security Management Services Pvt. Ltd. proudly
+          serves leading corporate organizations, financial institutions,
+          residential communities, infrastructure companies, IT firms and
+          industrial businesses across India with reliable security and facility
+          management solutions.
+        </p>
+      </div>
 
-        <section className="clients" id="clients">
+      <div className="clients-grid">
+        {clients.map((client, index) => (
+          <div className="client-card" key={index}>
+            <div className="client-icon">{client.icon}</div>
 
-            <div className="clients-header">
+            <h3>{client.name}</h3>
 
-                <p className="section-tag">
-                    OUR CLIENTS
-                </p>
+            <span>{client.location}</span>
+          </div>
+        ))}
+      </div>
 
-                <div className="section-line"></div>
+      <div className="clients-bottom">
+        <h3>100+</h3>
 
-                <h2>
-                    Trusted By Leading Organizations
-                </h2>
+        <h4>Trusted Corporate Clients</h4>
 
-                <p>
-                    PROMAX Facility proudly serves government organizations,
-                    educational institutions, commercial establishments,
-                    industries and residential communities across Maharashtra.
-                </p>
-
-            </div>
-
-            <div className="clients-grid">
-
-                {clients.map((client, index) => (
-
-                    <div className="client-card" key={index}>
-
-                        <div className="client-icon">
-                            {client.icon}
-                        </div>
-
-                        <h3>{client.name}</h3>
-
-                        <span>{client.location}</span>
-
-                    </div>
-
-                ))}
-
-            </div>
-
-            <div className="clients-bottom">
-
-                <h3>100+</h3>
-
-                <h4>Trusted Clients</h4>
-
-                <p>
-                    Government Organizations • Schools • Hospitals •
-                    Industries • Corporate Offices • Residential Communities
-                </p>
-
-            </div>
-
-        </section>
-
-    );
-
+        <p>
+          Corporate Offices • Banks • IT Companies • Industries • Residential
+          Communities • Infrastructure • Manufacturing • Retail Businesses
+        </p>
+      </div>
+    </section>
+  );
 }
 
 export default Clients;

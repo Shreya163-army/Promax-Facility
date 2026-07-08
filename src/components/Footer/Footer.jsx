@@ -99,7 +99,7 @@ function Footer() {
                     <a href="tel:+918484955562">+91 84849 55562</a>
 
                     <p><FaPhoneAlt /> Mandar Sawant (Director)</p>
-                    <a href="tel:+917506072204">+91 75060 72204</a>
+                    <a href="tel:+917498643425">+91 74986 43425</a>
 
                     <p><FaEnvelope /> <a href="mailto:promaxfacility9@gmail.com">
                         promaxfacility9@gmail.com
